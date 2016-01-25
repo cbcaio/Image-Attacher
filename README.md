@@ -97,21 +97,29 @@ the model.
 
 ### 1 - Basic of using the hasImage trait
 
-##### Adding and retrieving an image to the model from an uploaded file.
+##### Adding an image to the model from an uploaded file.
 
     ```php
         $upload = Input::file('image');
         $model->addImage($upload);
-        ...
+         // Directly from $request
+        $model->addImage($request->file('image'));
+         // With parameters
+        $model->addImage($request->file('image', 'processing_style_routine','newfilename.jpg'));
+    ```
+    
+##### Retrieving an image from the model.
+
+    ```php
         $image = $user->getImage();
-        // Path is relative
+          // Path is relative
         $image->getPath('original_style);
         $image->getPath('thumbnail);
-        // Url includes full path
+        
+          // Url includes full path
         $image->getUrl('original_style);
         $image->getUrl('thumbnail);
-    ```
-  
+    ``` 
 ##### Adding another image
     ```php
         // The same as adding, the package will identify if the model already has an image, delete the previous 
