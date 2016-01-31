@@ -1,10 +1,12 @@
 # Image Attacher
-
-[![Latest Version on Packagist][ico-version]][link-packagist]
-[![Software License][ico-license]](LICENSE.md)
-[![Build Status][ico-travis]][link-travis]
+[![License](https://poser.pugx.org/cbcaio/image-attacher/license)](LICENSE.md)
 [![Quality Score][ico-code-quality]][link-code-quality]
-[![Total Downloads][ico-downloads]][link-downloads]
+[![Build Status][ico-travis]][link-travis]
+[![Latest Stable Version](https://poser.pugx.org/cbcaio/image-attacher/v/stable)](link-packagist)
+
+[![Total Downloads](https://poser.pugx.org/cbcaio/image-attacher/downloads)](link-packagist)
+[![Monthly Downloads](https://poser.pugx.org/cbcaio/image-attacher/d/monthly)](link-packagist)
+[![Daily Downloads](https://poser.pugx.org/cbcaio/image-attacher/d/daily)](link-packagist)
 
 This package uses polymorphic relationships to easily attach images to models. Basically you just need to use one of 
   the package's traits in your model and you are good to go(see Usage). What happens in the background is that the 
@@ -155,11 +157,8 @@ If you discover any security related issues, please email :author_email instead 
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/CbCaio/Image-Attacher.svg?style=flat-square
-[ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
 [ico-travis]: https://travis-ci.org/CbCaio/Image-Attacher.svg?branch=master
 [ico-code-quality]: https://scrutinizer-ci.com/g/CbCaio/Image-Attacher/badges/quality-score.png?b=master
-[ico-downloads]: https://img.shields.io/packagist/dt/CbCaio/Image-Attacher.svg?style=flat-square
 
 [link-packagist]: https://packagist.org/packages/CbCaio/Image-Attacher
 [link-travis]: https://travis-ci.org/CbCaio/Image-Attacher
