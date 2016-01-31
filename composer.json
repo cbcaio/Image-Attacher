@@ -1,16 +1,14 @@
 {
     "name": "cbcaio/image-attacher",
-    "description": "Easy way to add images to your models trough polymorphic relationships",
+    "description": "Add uploaded images to models in an easy-to-use and fast approach. Process and save modified versions of images, like avatar, thumbnail, different sizes, you decide. Write images using flysystem.",
     "keywords": [
-        "cbcaio","attacher","images","upload","laravel5","laravel","flysystem"
+        "laravel","image","eloquent","attacher","flysystem","image-attacher","upload","thumbnail","avatar"
     ],
     "license": "MIT",
     "authors": [
         {
             "name": "Caio C. Bolognani",
-            "email": "caio.bolognani@gmail.com",
-            "homepage": "http://www.caiobolognani.com",
-            "role": "Developer / Consultant"
+            "email": "caio.bolognani@gmail.com"
         }
     ],
     "require": {
